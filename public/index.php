@@ -26,8 +26,6 @@ if(!file_exists($config['sqlite'])){
 		
 	}
 	
-	$db->exec($bossesSql);
-
 }
 
 $db = getDb($config['sqlite']);
